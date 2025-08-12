@@ -23,11 +23,12 @@ section img{
     display: block;
 }
 section {
+    order: 2;
     margin: 30px 20%;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: #4CAF50;
 }
 section:hover  {
     transform: scale(1.05);
@@ -46,3 +47,20 @@ li {
     margin: 5px ;
     padding: 5px;
 }
+     nav {
+            order: 1;
+            background-color: #365a37;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
